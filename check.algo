@@ -1,0 +1,24 @@
+ALGORITHM algorithm
+VAR
+x:INTEGER
+ch:STRING
+y:=0
+z:=0
+i:INTEGER
+BEGIN
+read(CH);
+L=ch.length
+write("la longueur est",L)
+FOR i ch[1]  TO ch[L] DO
+   IF (ch[i]=["A","Y","O","U","I","E",a","y","o","u","i" "e"] THEN
+       y=y+1;
+   END_IF 
+END_FOR
+Write("le nombre de voyelle est",y);
+FOR i ch[1]  TO ch[L] DO
+   IF (ch[i]=[" " ] THEN
+       z=z+1;
+   END_IF 
+END_FOR
+Write("nombre des mots est",z);
+END
